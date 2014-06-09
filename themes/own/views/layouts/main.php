@@ -9,17 +9,49 @@
     <meta name="language" content="en" />
     <link rel="shortcut icon" href="<?php echo Yii::app()->request->baseUrl; ?>/css/images/favicon.ico" type="image/x-icon" />
     <script type="text/javascript" src="<?=Yii::app()->request->baseUrl?>/js/jquery-1.11.1.js"></script>
+
     <script type="text/javascript" src="<?=Yii::app()->request->baseUrl?>/js/script.js"></script>
 
+    <!-- from omn -->
+    <link rel="stylesheet" href="<?=Yii::app()->request->baseUrl?>/css/layout.css" type="text/css" />
+    <link rel="stylesheet" href="<?=Yii::app()->request->baseUrl?>/css/style.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="<?=URL?>/js/jquery1.js"></script>
+
+    <script type="text/javascript">var _siteRoot='index.php',_root='index.php';</script>
+    <script type="text/javascript" src="<?=Yii::app()->request->baseUrl?>/js/scripts.js"></script>
+
+
+    <script type="text/javascript" src="<?=Yii::app()->request->baseUrl?>/js/jquery.validate.pack.js"></script>
+    <script type="text/javascript" src="<?=Yii::app()->request->baseUrl?>/js/jquery.contactable.min.js"></script>
+    <script type="text/javascript" src="<?=Yii::app()->request->baseUrl?>/js/jquery.contactable.js"></script>
 
     <!--   my important css files -->
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style1.css" />
 
-
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
-<body>
+<body id="top">
+
+<!--start contactable -->
+<div id="contactable"><!-- contactable html placeholder --></div>
+
+
+
+<link rel="stylesheet" href="<?=Yii::app()->request->baseUrl?>/css/contactable.css" type="text/css" />
+<script>$(function(){$('#contactable').contactable({subject: 'feedback URL:'+location.href});});</script>
+<!--end contactable -->
+<div class="logo1">
+    <div class='logo'>
+        <a href="<?=Yii::app()->request->baseUrl?>"><img src="<?=Yii::app()->request->baseUrl?>/css/images/logoArm.png" class="logo" alt="" /></a>
+    </div>
+
+    <div class='contact_head'>
+        <span class="name" style="margin:0px 30px 9px -2px; font-size:20px; font-weight:bold;">(+374) 77 44 77 11; (+374) 95 10 03 01</span><br />
+        <div class="author_head" style="font-size: 12px">Адрес: <span class="name"> Армения,    0048, г.     Ереван,     Бекназарян   5 / 7</span></div><br />
+        <div class="author_head" style="font-size: 12px">Телефон: <span class="name">(+374) 60 50 07 06</span></div>
+        <div class="author_head" style="font-size:12px;margin-left:48px;">E-mail: <span class="name">info@ssystems.am</span></div>
+    </div>
 
 
 <?php
@@ -38,26 +70,6 @@ foreach($links as $link)
 
 
 ?>
-
-<div class="rounds">
-
-    <div class="hand_animation">
-        <div class="hand"></div>
-        <div class="clear"></div>
-        <div class="bottle">
-            <div class="tear"></div>
-        </div>
-
-        <!--<div class="bottle_middle"></div>-->
-
-        <!--<div class="bottom_all_wrap"></div>-->
-    </div>
-    <div class="bottle_bottom"></div>
-    <div class="back_wrapper">
-        <img src="<?=Yii::app()->request->baseUrl?>/css/images/4.png" width="754" height="520" />
-    </div>
-</div>
-
 
     <div class="clear"></div>
 
