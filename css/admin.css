@@ -1,0 +1,35 @@
+
+
+.cropper {
+
+}
+
+.black {
+
+}
+
+.languages {
+    margin: 2px 4px 0px 0px;
+    font-family: "Arian AMU";
+    background: #E9B5B5;
+    padding: 7px 7px 7px;
+    color: #fff;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+
+.languages:hover {
+    background: #F55B5B;
+}
+
+.language_container {
+    width: 950px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+
+.categories_area {
+    margin: 20px 0px 0px 0px;
+    padding: 10px 10px 10px 10px;
+}

@@ -1,0 +1,28 @@
+@charset "utf-8";
+.map {
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 665px;
+    height: 665px;
+    background-color: #feeaed;
+    border-radius: 665px;
+    position: absolute;
+    overflow: hidden;
+    z-index: 2;
+    border: 2px solid #ccc;
+}
+.map_round {
+	margin-top: 480px;
+    margin-left: 180px;
+	background-color: rgb(255,255,255);
+	border-radius: 720px;
+	height: 720px;
+	width: 720px;
+	position: absolute;
+	z-index: 1;
+}
+
+#footer {
+    position: relative;
+    margin-top: 425px;
+}
