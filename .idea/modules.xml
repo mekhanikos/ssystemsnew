@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/sanimail.iml" filepath="$PROJECT_DIR$/.idea/sanimail.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/saninail.iml" filepath="$PROJECT_DIR$/.idea/saninail.iml" />
     </modules>
   </component>
