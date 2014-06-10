@@ -1,6 +1,6 @@
 body
 {
-background: url('../img/omalogo.png');
+background: url('images/omalogo.png');
 background-size: 115px;
 background-attachment: fixed;
 /*background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFF), to(#eee));
@@ -133,11 +133,11 @@ div#header1 div#slide-holder div#slide-controls p#slide-nav a.on {
 background-position : 0 -12px;
 }
 div#header1 div#slide-holder div#slide-controls p#slide-nav a {
-background-image : url(../images/silde-nav.png);
+background-image : url(images/silde-nav.png);
 background-size: 12px;
 }
 div#nav ul li a {
-background : url(../images/nav.png) no-repeat;
+background : url(images/nav.png) no-repeat;
 }
 div#topnav ul li:nth-last-child(2) > a:hover > div#submenu{
 visibility:visible;
@@ -206,13 +206,13 @@ margin-left:84px;
 
 .album
 {
-	background:url(../img/pictures_stack.png) no-repeat ;
+	background:url(images/pictures_stack.png) no-repeat ;
 	background-position:53 0;
 	text-align:center;
 }
 
 .album_in_img{
-	background:url(../img/pictures_stack.png) no-repeat center;
+	background:url(images/pictures_stack.png) no-repeat center;
 	text-align:center;
 }
 
@@ -299,7 +299,7 @@ float: left;
 }
 .prior_icon
 {
-background-image: url(../img/logo_c.jpg);
+background-image: url(images/logo_c.jpg);
 width: 57px;
 height: 60px;
 float: left;

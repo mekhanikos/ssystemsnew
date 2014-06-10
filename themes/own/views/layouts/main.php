@@ -15,18 +15,17 @@
     <!-- from omn -->
     <link rel="stylesheet" href="<?=Yii::app()->request->baseUrl?>/css/layout.css" type="text/css" />
     <link rel="stylesheet" href="<?=Yii::app()->request->baseUrl?>/css/style.css" type="text/css" media="screen" />
-    <script type="text/javascript" src="<?=URL?>/js/jquery1.js"></script>
+    <script type="text/javascript" src="<?=Yii::app()->request->baseUrl?>/js/jquery1.js"></script>
 
     <script type="text/javascript">var _siteRoot='index.php',_root='index.php';</script>
     <script type="text/javascript" src="<?=Yii::app()->request->baseUrl?>/js/scripts.js"></script>
-
 
     <script type="text/javascript" src="<?=Yii::app()->request->baseUrl?>/js/jquery.validate.pack.js"></script>
     <script type="text/javascript" src="<?=Yii::app()->request->baseUrl?>/js/jquery.contactable.min.js"></script>
     <script type="text/javascript" src="<?=Yii::app()->request->baseUrl?>/js/jquery.contactable.js"></script>
 
+    <link rel="stylesheet" href="<?=Yii::app()->request->baseUrl?>/css/contactable.css" type="text/css" />
     <!--   my important css files -->
-    <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/style1.css" />
 
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
@@ -34,11 +33,9 @@
 <body id="top">
 
 <!--start contactable -->
-<div id="contactable"><!-- contactable html placeholder --></div>
+<div id="contactable"></div>
 
 
-
-<link rel="stylesheet" href="<?=Yii::app()->request->baseUrl?>/css/contactable.css" type="text/css" />
 <script>$(function(){$('#contactable').contactable({subject: 'feedback URL:'+location.href});});</script>
 <!--end contactable -->
 <div class="logo1">
